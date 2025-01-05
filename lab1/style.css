@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+div{
+    margin: 0;
+}
+.menu{
+    background-color: hotpink;
+    font-size: 24px;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+}
+.lewy{
+   background-color: lightpink;
+    font-size: 12px;
+    width: 15%;
+    height: 1100px; 
+    float: left;
+}
+.prawy1{
+  
+    background-image: url(zdj/tlo.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-size: 12px;
+    width: 85%;
+    height: 1100px; 
+    float: left;
+}
+.prawy{
+   background-color: lightcyan;
+    font-size: 12px;
+    width: 85%;
+    height: 1100px; 
+    float: left;
+}
+
+
+h2{
+    color: rebeccapurple;
+    font-size: 33px;
+}
+a{
+    font-size: 25px;
+}
+.l{
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    height: 1100px;
+}
+
+p.{
+    width:70%;
+    float: left;
+    font-size: 25px;
+    height: 1100px;
+}
+h1{
+    color: wheat;
+    margin-left: 15px;
+}
+h2{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    
+}
+h3{
+    font-size: 30px;
+    
+}
+h4{
+    font-size: 22px;
+}
+ol{
+    font-size: 25px;
+}
+p{
+    margin: 7px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+a:hover{
+    color: lightskyblue;
+}
+a{
+    margin-left: 5px;
+}
+form{
+    margin: 10px;
+}

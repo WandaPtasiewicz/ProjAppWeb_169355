@@ -1,0 +1,68 @@
+<!doctype html>
+
+         <div class = "menu"> <h1>Moje hobby to pieczenie słodkości </h1> 
+         
+         </div>
+         <div class = "lewy"> 
+          <iframe width="220" height="215" src="https://www.youtube.com/embed/LK-tTTCCQ8s?si=LZo47aMgAbxlCvdD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+             <iframe width="220" height="215" src="https://www.youtube.com/embed/QvL91tJr-cY?si=vVPG_daBU7B6UB9F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+              <iframe width="220" height="215" src="https://www.youtube.com/embed/QvL91tJr-cY?si=vVPG_daBU7B6UB9F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             
+         </div>
+         <div class = "prawy1"> 
+            <form method="POST" name="background">
+                <input type="button" value="żółty" ONCLICK ="changeBackground('#FFF000')">
+                <input type="button" value="czarny" ONCLICK ="changeBackground('#000000')">
+                <input type="button" value="biały" ONCLICK ="changeBackground('#FFFFFF')">
+                <input type="button" value="zielony" ONCLICK ="changeBackground('#0FFF00')">
+                <input type="button" value="niebieski" ONCLICK ="changeBackground('#0000FF')">
+                <input type="button" value="pomarańczowy" ONCLICK ="changeBackground('#FF8000')">
+                <input type="button" value="szary" ONCLICK ="changeBackground('#c0c0c0')">
+                <input type="button" value="czerwony" ONCLICK ="changeBackground('#FF0000')">
+             </form>
+          <div id="zegarek"></div>
+         <div id="data"></div>
+             
+             <div id="animacjaTestowa1" class="testBlock">Kliknij, a sie powieksze</div>
+             <script>
+                 $("#animacjaTestowa1").on("click",function(){
+                     $(this).animate({
+                         width:"500px",
+                         opacity: 0.4,
+                         fontSize:"3em",
+                         borderWidth:"10px"
+                     },1500);
+                 });
+             </script>
+             <div id="animacjaTestowa2" class="testBlock">Najedz kursorem, a sie powieksze</div>
+             <script>
+                 $("#animacjaTestowa2").on({
+                     "mouseover" : function(){
+                     $(this).animate({
+                         width:300 
+                     },800);
+                 },
+                     "mouseout": function(){
+                         $(this).animate({
+                             width:200
+                         },800);
+                     }
+                     });
+             </script>
+             <div id="animacjaTestowa3" class="testBlock"> Klikaj, abym urósł</div>
+
+             <script>
+                $("#animacjaTestowa3").on("click", function() {
+                    if (!$(this).is(":animated")) {
+                        $(this).animate({
+                            width: "+=50",
+                             height: "+=10",
+                            opacity: "+=0.1",
+                             duration: 3000 
+                });
+                }
+            });
+                 
+             </script>
+            
+         </div>
