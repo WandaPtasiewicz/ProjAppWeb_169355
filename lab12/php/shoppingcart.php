@@ -52,7 +52,8 @@ require_once 'cfg.php';
         }
 
     function showCart(){
-        echo'<table><tr>
+        echo 'Koszyk: <br>';
+        echo'<table border="1"><tr>
             <td> Nazwa Produktu </td>
             <td> Cena netto</td>
             <td> podatek vat</td>
@@ -74,7 +75,12 @@ require_once 'cfg.php';
         }
 
         echo"</table>";
-        echo"Suma wszystkich produktów: ". $countProducts."<br>  suma podatku Vat: ". $countVat. "<br>";
+        echo"<table border='1'>
+            <tr> <td>Suma wszystkich produktów: </td>
+            <td>". $countProducts."</td></tr>
+            <tr><td>suma podatku Vat: </td>
+            <td>". $countVat. "</td></tr></table>
+            ";
 
     }
 

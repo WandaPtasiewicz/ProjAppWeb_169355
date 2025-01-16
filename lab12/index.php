@@ -23,7 +23,7 @@
                  else
                      $podstrona = "glowna.html";
 
-                include('html/'.$podstrona)
+                include('html/'.$podstrona);
 
         ?>
      </body>

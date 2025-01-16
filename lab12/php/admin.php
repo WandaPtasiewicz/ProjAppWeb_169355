@@ -75,6 +75,7 @@ function ListaPodstron()
         echo '<td>
                 <form method="get" action="' . $_SERVER['PHP_SELF'] . '">
                     <input type="hidden" name="edit_page_id" value="' . $row['id'] . '">
+                    <input type="hidden" name="idp" value="panelCMS.php">
                     <button type="submit">Edytuj</button>
                 </form>
                 <form method="post">
@@ -261,6 +262,7 @@ function PokazKategorie(){
             echo '<td>
                     <form method="get" action="' . $_SERVER['PHP_SELF'] . '">
                         <input type="hidden" name="edit_category_id" value="' . $row['id'] . '">
+                        <input type="hidden" name="idp" value="panelCMS.php">
                         <button type="submit">Edytuj</button>
                     </form>
                     <form method="post">
@@ -453,6 +455,7 @@ function PokazProdukty(){
             echo '<td>
                     <form method="get" action="' . $_SERVER['PHP_SELF'] . '">
                         <input type="hidden" name="edit_product_id" value="' . $row['id'] . '">
+                        <input type="hidden" name="idp" value="panelCMS.php">
                         <button type="submit">Edytuj</button>
                     </form>
                     <form method="post">
@@ -525,7 +528,7 @@ if (isset($_GET['edit_category_id'])) {
 
     PokazKategorie();
     UsunKategorie();
-   echo '<br><a href="?add_category=1">Dodaj nowa kategorie</a>';
+   echo '<br><a href="index.php?idp=panelCMS.php&add_category=1">Dodaj nowa kategorie</a>';
 
 }
 
@@ -542,7 +545,7 @@ if (isset($_GET['edit_product_id'])) {
 
     PokazProdukty();
     UsunProdukt();
-   echo '<br><a href="?add_product=1">Dodaj nowy product</a>';
+   echo '<br><a href="index.php?idp=panelCMS.php&add_product=1">Dodaj nowy product</a>';
 
 }
 

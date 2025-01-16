@@ -54,7 +54,7 @@ nav{
    background-color: lightpink;
     font-size: 12px;
     width: 15%;
-    height: 900px; 
+    height: 1400px;
     float: left;
 }
 .prawy1{
@@ -64,14 +64,14 @@ nav{
    
     font-size: 12px;
     width: 85%;
-    height: 900px; 
+    height: 1400px;
     float: left;
 }
 .prawy{
    background-color: lightcyan;
     font-size: 12px;
     width: 85%;
-    height: 900px; 
+    height: 1400px;
     float: left;
 }
 footer{
@@ -91,14 +91,14 @@ a{
     width: 30%;
     float: left;
     font-size: 16px;
-    height: 1100px;
+    height: 1400px;
 }
 
 .p{
     width:70%;
     float: left;
     font-size: 25px;
-    height: 1100px;
+    height: 1900px;
 }
 h1{
     color: wheat;
