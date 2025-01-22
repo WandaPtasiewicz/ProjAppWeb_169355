@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    opacity: 80%;
+}
+.testBlock{
+    width: 200px;
+    border:2px solid rgba(71,236,30,1);
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callot:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select: none;
+}
+
+#zegarek{
+    font-size: 55px;
+    background-color: bisque;
+}
+
+#data{
+   font-size: 55px;
+    background-color: bisque;
+}
+div{
+    margin: 0;
+}
+nav{
+    background-color: salmon;
+    font-size: 24px;
+    width: 100%;
+    height: 100px;
+    padding-top: 1px;
+
+}
+.mainmenu{
+    background-color: salmon;
+    font-size: 24px;
+    width: 100%;
+    height: 100px;
+    padding-top: 1px;
+
+}
+.lewy{
+   background-color: lightpink;
+    font-size: 12px;
+    width: 15%;
+    height: 1400px;
+    float: left;
+}
+.prawy1{
+ background-image: url(zdj/tlo.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+   
+    font-size: 12px;
+    width: 85%;
+    height: 1400px;
+    float: left;
+}
+.prawy{
+   background-color: lightcyan;
+    font-size: 12px;
+    width: 85%;
+    height: 1400px;
+    float: left;
+}
+footer{
+    background-color: lightcoral;
+    text-align: center;
+     font-family:monospace;
+}
+
+h2{
+    color: rebeccapurple;
+    font-size: 33px;
+}
+a{
+    font-size: 25px;
+}
+.l{
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    height: 1400px;
+}
+
+.p{
+    width:70%;
+    float: left;
+    font-size: 25px;
+    height: 1900px;
+}
+h1{
+    color: wheat;
+    margin-left: 15px;
+}
+h2{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    
+}
+h3{
+    font-size: 30px;
+    
+}
+h4{
+    font-size: 22px;
+}
+ol{
+    font-size: 15px;
+}
+p{
+    margin: 7px;
+    font-size: 18px;
+    text-align: justify;
+   
+}
+a:hover{
+    color: lightskyblue;
+}
+a{
+    margin-left: 5px;
+}
+form{
+    margin: 10px;
+}
